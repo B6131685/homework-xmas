@@ -13,7 +13,7 @@ type Checkout struct {
 // Fields of the Checkout.
 func (Checkout) Fields() []ent.Field {
 	return []ent.Field{
-        field.Time("Create_at"),
+        field.Time("Daytime"),
     }
 }
 
